@@ -1147,6 +1147,24 @@ p {
 }
 
 @media (max-width: 428px) {
+    /* Login Modal */
+    #loginmodal .modal-content {
+        padding: 2rem 1rem;
+    }
+
+    .modal-dialog {
+        padding: 0rem 2rem;
+        margin: 0rem;
+    }
+
+    #loginmodal button {
+        font-size: 1.2rem;
+    }
+
+    #loginmodal span {
+        font-size: 0.9rem;
+    }
+    
     h2 {
         font-size: 2rem;
     }
@@ -1179,6 +1197,8 @@ p {
     
     .events .card-big {
         padding: 2rem 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
     }
 
     .events .card-big .card-content {
@@ -1477,5 +1497,6 @@ p {
 }
 
 @media (max-width: 320px) {
+
     
 }
